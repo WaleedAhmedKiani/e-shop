@@ -6,8 +6,8 @@ import authUser from '../middleware/auth.js'
 const orderRouter = express.Router()
 
 // Route for Admin Panel
-orderRouter.post('/list',adminAuth,allOrders)
-orderRouter.post('/status',adminAuth,updateStatus)
+orderRouter.post('/list', adminAuth, allOrders)
+orderRouter.post('/status', adminAuth, updateStatus)
 
 // Payment Features
 orderRouter.post('/place',authUser,placeOrder)

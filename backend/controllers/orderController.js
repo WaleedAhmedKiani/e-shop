@@ -6,8 +6,9 @@ import Stripe from "stripe"
 // global variables
 const currency = 'aed'
 const deliveryCharge = 10
+
 // Stripe Payment Gateway initialize
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
+const stripe = new Stripe(process.env.STRIP_SECRET_Key)
 
 // Cod Method
 const placeOrder = async (req, res) => {

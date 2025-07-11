@@ -59,7 +59,7 @@ const Order = () => {
                     <p>Size:&nbsp;{item.size} </p>
                   </div>
                   <p className='mt-2'>Date: <span className='text-gray-400'>{new Date(item.date).toDateString()} </span></p>
-                  <p className='mt-2'>Date: <span className='text-gray-400'>{item.paymentMethod} </span></p>
+                  <p className='mt-2'>Method: <span className='text-gray-400'>{item.paymentMethod} </span></p>
                 </div>
               </div>
 
